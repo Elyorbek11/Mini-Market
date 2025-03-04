@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+}
+.on-saie{
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    padding: 2px;
+}
+.cards img{
+    width: 100%;
+}
+.red{
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 113px;
+}
+.green{
+    background-color: green;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 85px;
+    z-index: 5;
+}
+.btn{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: grey;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+}
+.btn:active{
+    color: green;
+}
